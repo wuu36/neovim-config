@@ -20,7 +20,8 @@ vim.opt.rtp:prepend(lazypath)
 
 require("lazy").setup {
     -- 插件列表见下文
-    require "plugins.nord",
+    require "plugins.catppuccin",
+    -- require "plugins.nord",
     require "plugins.treesitter",
     -- require "plugins.nvim-tree",
     -- require("plugins.lsp-config"),
@@ -38,6 +39,8 @@ require("lazy").setup {
     require "plugins.which-key",
     require "plugins.aerial",
     require "plugins.alpha",
+    require "plugins.gitsigns",
+    require "plugins.vim-fugitive",
 }
 
 -- 基础配置（显示行号旁图标和悬浮提示）
