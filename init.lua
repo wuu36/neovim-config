@@ -41,6 +41,7 @@ require("lazy").setup {
     require "plugins.alpha",
     require "plugins.gitsigns",
     require "plugins.vim-fugitive",
+    require "plugins.lazygit",
 }
 
 -- 基础配置（显示行号旁图标和悬浮提示）
